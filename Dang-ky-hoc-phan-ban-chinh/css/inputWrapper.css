@@ -1,0 +1,56 @@
+input[type=text], input[type=password], input[type=email] {
+    width: 60%;
+    padding: 5px 20px;
+    margin: 8px 20%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: slategray;
+    overflow: hidden;
+  }
+input:focus{
+    outline: none; 
+    border-color: #9ecaed; 
+    box-shadow: 0 0 10px #9ecaed;
+}
+label{
+      font-weight: bold;
+      margin: 20%;
+      font-size: 18px;
+  }
+
+  
+  /* #loginbox {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-radius: 50%;
+    text-align: end;
+} */
+
+#input-error{
+    color: red;
+    font-size: small;
+    margin: 0 20%;
+}
+
+.input-wrapper-x{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    width: 100%;
+    float: left;
+}
+#information-child{
+    padding: 5px;
+    padding-left: 20px;
+    margin: 0 23%;
+    outline: none;
+    border: 1px solid #9ecaed;
+    border-radius: 3px;
+    background-color: oldlace;
+
+}
